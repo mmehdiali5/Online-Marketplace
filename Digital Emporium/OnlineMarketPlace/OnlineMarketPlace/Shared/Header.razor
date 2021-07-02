@@ -1,0 +1,25 @@
+﻿@inject NavigationManager NavManager
+<div class="container-fluid row top-heading-div m-0">
+    <div class="col-md-1"></div>
+    <img style="margin-top: 6px;" src="/images/edit2.png" width="50" height="40" class="logo">
+    <div class="col-md-5" style="display:flex;color:whitesmoke;">
+        <h2 class="logo-heading">Digital Emporium </h2>
+        <h4 class="slogan">Don't worry, we have it.</h4>
+    </div>
+    <div class="col-md-5 btn">
+        <button class="btn btn-outline-secondary login-signup-btn" @onclick="@goToLogin">Login</button>
+        <button class="btn btn-outline-secondary login-signup-btn" @onclick="@goToSignup">Register</button>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+@code {
+    void goToLogin()
+    {
+        NavManager.NavigateTo("/sellerSignIn");
+    }
+    void goToSignup()
+    {
+        NavManager.NavigateTo("/sellerSignup");
+    }
+
+}

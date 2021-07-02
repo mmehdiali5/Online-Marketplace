@@ -1,0 +1,32 @@
+﻿
+<div class="filter-box">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            <a aria-expanded="true" class=""
+               data-target="#collapseCategories" data-toggle="collapse">
+                <span class="font-weight-600 title">Category</span>
+            </a>
+        </h4>
+    </div>
+    <div class="collapse show" id="collapseCategories">
+        <div class="panel-body">
+            @foreach (var category in categoriesList)
+            {
+                <div class="form-check">
+                    <a @onclick="()=>OnClickCallback.InvokeAsync(category.Id)">@category.Name</a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+
+    [Parameter]
+    public List<Category> categoriesList { get; set; }
+    
+    [Parameter]
+    public EventCallback<int> OnClickCallback { get; set; }
+
+
+}

@@ -1,0 +1,274 @@
+﻿@page "/product/{ItemId:int}"
+@using Newtonsoft.Json
+@using Newtonsoft.Json.Linq
+
+<div class="container-fluid my-5">
+    <div class="row ">
+        <div class="col-md-6">
+
+            <!--Images of Product-->
+
+            <img style="max-width: 100%;
+            height: auto;" width="500" height="500"
+                    src=@imgPath />
+        </div>
+        <div class="col-md-6">
+
+            <!--General Info of Product-->
+
+            <h1 style="border-bottom: 1px solid #e9e8e8;padding-bottom: 15px; font-size: 30px;font-family:Montserrat;color: #3f3f3f;font-weight: 400;">
+                @Name
+            </h1>
+            <div style="border-bottom: 1px solid #e9e9e9;">
+                <div style="margin-top:30px;font-size: 15px; font-family: Montserrat;display: flex;">
+                    <span>$ @UnitPrice</span> &nbsp;&nbsp;
+                    <div class="stars" style="font-size: medium;margin-top: 7px;">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div>
+                    <span style="font-size: small;margin-left: 10px; color: #8d8d8d;">(2 customer reviews)</span>
+                </div>
+            </div>
+            <div style="color: #8d8d8d;font-weight: 400;font-size: 13px;margin-top: 20px;font-family: Montserrat">
+               @Description
+            </div>
+
+            <!--Category-->
+
+            <div class="category">
+
+                <span style="font-family:Montserrat;font-weight: bold;">In Stock: </span>
+                <span style="font-family:Montserrat; color: #8d8d8d;margin-left: 10px;">8</span>
+
+            </div>
+
+            <div class="category">
+
+                <span style="font-family:Montserrat;font-weight: bold;">Category: </span>
+                <span style="font-family:'Segoe UI', Tahoma, Geneva, Verdana,
+                    sans-serif;margin-left: 10px; color: #8d8d8d;">
+                    @Category
+                </span>
+
+            </div>
+
+            <Description OnClickCallback="GetMessage">
+                
+                <MyDescription>
+                    @if (message == "desc")
+                    {
+                        <table class="table table-bordered" id="add_info">
+                            <tbody>
+                                <tr>
+                                    <th>Shope Name</th>
+                                    <td>@Category</td>
+                                </tr>
+
+                                <tr>
+                                    <th>Phone No</th>
+                                    <td>+923244892111</td>
+
+                                </tr>
+                                <tr>
+                                    <th>Address</th>
+                                    <td>@StreetAddress, @City, @Country</td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+
+                    }
+                    else if (message == "info")
+                    {
+                        <table class="table table-bordered" id="add_info">
+                            <tbody>
+                                <tr>
+                                    <th>Manufacturer</th>
+                                    <td>@Manufacturer</td>
+
+                                </tr>
+                                <tr>
+                                    <th>Model</th>
+                                    <td>@Model</td>
+
+                                </tr>
+                                
+                                <tr>
+                                    <th>Sold</th>
+                                    <td>12</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    }
+                    
+                    else
+                    {
+                        <div></div>
+                    }
+
+                </MyDescription>
+            </Description>
+            
+
+            
+        </div>
+    </div>
+</div>
+
+@code{
+    [Parameter]
+    public int ItemId { get; set; }
+
+    public int CategoryId { get; set; }
+    public int ShopId { get; set; }
+    public int SellerId { get; set; }
+
+    string imgPath;
+    //string imgSource2= "https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/9/2016/01/Item_10_2.jpg";
+    //string imgSource3= "https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/9/2016/01/Item_10.jpg";
+
+    //void SetImageSource2()
+    //{
+    //    string temp = imgSource1;
+    //    imgSource1 = imgSource2;
+    //    imgSource2 = temp;
+    //}
+    //void SetImageSource3()
+    //{
+    //    string temp = imgSource1;
+    //    imgSource1 = imgSource3;
+    //    imgSource3 = temp;
+    //}
+    //void SetImageSource1()
+    //{
+    //    imgSource1 = "https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/9/2016/01/Item_10_1.jpg";
+    //    imgSource2 = "https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/9/2016/01/Item_10_2.jpg";
+    //    imgSource3 = "https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/9/2016/01/Item_10.jpg";
+    //}
+
+    string message = "";
+    private void GetMessage(string m)
+    {
+        message = m;
+    }
+
+    string result="";
+    string result1="";
+    string result2="";
+    string result3="";
+    string result4="";
+    string Name = "";
+    string Description = "";
+    string UnitPrice = "";
+    string Model = "";
+    string Manufacturer = "";
+    string Category="";
+    int ShopAddressId=0;
+    string Country="";
+    string City="";
+    string StreetAddress="";
+
+    protected override async Task<Task> OnInitializedAsync()
+    {
+        HttpClient http = new HttpClient();
+
+        //Code For Fetching Items Detail
+
+        var requestMessage = new HttpRequestMessage()
+        {
+            Method = new HttpMethod("GET"),
+            RequestUri = new Uri($"http://localhost:5000/odata/item?$filter=Id eq {ItemId}"),
+        };
+        var response = await http.SendAsync(requestMessage);
+        result = await response.Content.ReadAsStringAsync();
+        var data = (JObject)JsonConvert.DeserializeObject(result);
+        var products = data["value"].Children();
+        foreach (var pro in products)
+        {
+            Name = pro["Name"].Value<string>();
+            Description = pro["Description"].Value<string>();
+            UnitPrice = pro["UnitPrice"].Value<string>();
+            Model = pro["Model"].Value<string>();
+            Manufacturer = pro["Manufacturer"].Value<string>();
+            CategoryId = pro["CategoryId"].Value<int>();
+            SellerId = pro["SellerId"].Value<int>();
+        }
+
+        // Code For Fetching Category
+
+        var requestMessage1 = new HttpRequestMessage()
+        {
+            Method = new HttpMethod("GET"),
+            RequestUri = new Uri($"http://localhost:5000/odata/category?$filter=Id eq {CategoryId}")
+        };
+
+        var response1 = await http.SendAsync(requestMessage1);
+
+        result1 = await response1.Content.ReadAsStringAsync();
+        var data1 = (JObject)JsonConvert.DeserializeObject(result1);
+        var products1 = data1["value"].Children();
+        foreach (var pro in products1)
+        {
+            Category = pro["Name"].Value<string>();
+        }
+
+        //Code for Fetching Seller
+
+        var requestMessage2 = new HttpRequestMessage()
+        {
+            Method = new HttpMethod("GET"),
+            RequestUri = new Uri($"http://localhost:5000/odata/seller?$filter=Id eq {SellerId}")
+        };
+        var response2 = await http.SendAsync(requestMessage2);
+        result2 = await response2.Content.ReadAsStringAsync();
+        var data2 = (JObject)JsonConvert.DeserializeObject(result2);
+        var products2 = data2["value"].Children();
+        foreach (var pro in products2)
+        {
+            ShopAddressId = pro["ShopAddressId"].Value<int>();
+        }
+
+        //Code for fetching Address
+
+        var requestMessage3 = new HttpRequestMessage()
+        {
+            Method = new HttpMethod("GET"),
+            RequestUri = new Uri($"http://localhost:5000/odata/address?$filter=Id eq {ShopAddressId}")
+        };
+        var response3 = await http.SendAsync(requestMessage3);
+
+        result3 = await response3.Content.ReadAsStringAsync();
+        var data3 = (JObject)JsonConvert.DeserializeObject(result3);
+        var products3 = data3["value"].Children();
+        foreach (var pro in products3)
+        {
+            Country = pro["Country"].Value<string>();
+            City = pro["City"].Value<string>();
+            StreetAddress = pro["StreetAddress"].Value<string>();
+        }
+
+        //Code for fetching Images
+        var requestMessage4 = new HttpRequestMessage()
+        {
+            Method = new HttpMethod("GET"),
+            RequestUri = new Uri($"http://localhost:5000/odata/image?$filter=ItemId eq {ItemId}")
+        };
+        var response4 = await http.SendAsync(requestMessage4);
+
+        result4 = await response4.Content.ReadAsStringAsync();
+        var data4 = (JObject)JsonConvert.DeserializeObject(result4);
+        var products4 = data4["value"].Children();
+        foreach (var pro in products4)
+        {
+            imgPath = pro["Path"].Value<string>();
+        }
+        return base.OnInitializedAsync();
+    }
+
+}

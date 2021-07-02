@@ -1,0 +1,289 @@
+﻿@layout MainLayout
+@page "/sellerDashboard"
+@using Newtonsoft.Json;
+@using Newtonsoft.Json.Linq;
+@using OnlineMarketPlace.Models;
+@using System;
+@using System.Collections.Generic;
+@using System.Linq;
+@using System.Net.Http;
+@using System.Threading.Tasks;
+@using System.Text;
+@inject Blazored.SessionStorage.ISessionStorageService sessionStorage
+@inject NavigationManager NavManager
+<!--Seller Dashboard-->
+<div class="bg-light py-2">
+    <div class="bg-dark m-4 p-4" style="border-radius: 15px;">
+        <div class="p-4 text-center" style="border-radius: 15px;background-color: #FCECEC;">
+            <h2>Seller Dashboard</h2>
+        </div>
+    </div>
+    <h2 class="px-5 text-center">Products</h2>
+
+    <!--Seller Product Table-->
+    <div class="table-responsive px-5">
+        <div style="height: 250px;">
+            <table class="table table-bordered text-center" style="overflow-x:auto;overflow-y: auto;">
+                <thead>
+                    <tr class="bg-dark text-light">
+                        <th>Name</th>
+                        <th>Category</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody class="bg-light text-dark">
+                    <tr>
+                        <td>Black Shoes</td>
+                        <td>Men</td>
+                        <td>10</td>
+                        <td>Rs. 1999</td>
+                        <td>
+                            <a href="updateProduct.html" class="btn btn-warning" role="button">Update</a>
+                            <button class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Red T-Shirt</td>
+                        <td>Men</td>
+                        <td>20</td>
+                        <td>Rs. 799</td>
+                        <td>
+                            <a href="updateProduct.html" class="btn btn-warning" role="button">Update</a>
+                            <button class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Red T-Shirt</td>
+                        <td>Men</td>
+                        <td>20</td>
+                        <td>Rs. 799</td>
+                        <td>
+                            <a href="updateProduct.html" class="btn btn-warning" role="button">Update</a>
+                            <button class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Red T-Shirt</td>
+                        <td>Men</td>
+                        <td>20</td>
+                        <td>Rs. 799</td>
+                        <td>
+                            <a href="updateProduct.html" class="btn btn-warning" role="button">Update</a>
+                            <button class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Red T-Shirt</td>
+                        <td>Men</td>
+                        <td>20</td>
+                        <td>Rs. 799</td>
+                        <td>
+                            <a href="updateProduct.html" class="btn btn-warning" role="button">Update</a>
+                            <button class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Black Shoes</td>
+                        <td>Men</td>
+                        <td>10</td>
+                        <td>Rs. 1999</td>
+                        <td>
+                            <a href="updateProduct.html" class="btn btn-warning" role="button">Update</a>
+                            <button class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Black Shoes</td>
+                        <td>Men</td>
+                        <td>10</td>
+                        <td>Rs. 1999</td>
+                        <td>
+                            <a href="updateProduct.html" class="btn btn-warning" role="button">Update</a>
+                            <button class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--Seller Add Products-->
+<div class="container-fluid bg-light py-2">
+    <div class="form px-5 py-0">
+        <h4>Enter Product Details</h4>
+        <br>
+        <EditForm Model="@addProduct" OnInvalidSubmit="submitForm">
+            <DataAnnotationsValidator></DataAnnotationsValidator>
+            <div class="form-row">
+                <div class="form-group col-md-4 image-upload-wrap">
+                    <input class="file-upload-input" type="file" onchange="readURL(this);" accept="image/*">
+                </div>
+                <div class="form-group col-md-4 image-upload-wrap">
+                    <input class="file-upload-input" type="file" onchange="readURL(this);" accept="image/*">
+                </div>
+                <div class="form-group col-md-4 image-upload-wrap">
+                    <input class="file-upload-input" type="file" onchange="readURL(this);" accept="image/*">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Name"><b>Name:</b></label>
+                <InputText id="name" @bind-Value="addProduct.Name" class="form-control" placeholder="Enter product name"></InputText>
+                <ValidationMessage For="@(()=> addProduct.Name)" />
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="Price"><b>Price:</b></label>
+                    <InputNumber id="price" @bind-Value="addProduct.Price" class="form-control" placeholder="Enter product price"></InputNumber>
+                    <ValidationMessage For="@(()=> addProduct.Price)" />
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="Quantity"><b>Quantity:</b></label>
+                    <InputNumber id="quantity" @bind-Value="addProduct.Quantity" class="form-control" placeholder="Enter product Quantity"></InputNumber>
+                    <ValidationMessage For="@(()=> addProduct.Quantity)" />
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="catagory"><b>Category:</b></label>
+                    <select class="form-control" id="catagory">
+                        <option>Food</option>
+                        <option>Women</option>
+                        <option>Men</option>
+                        <option>Kids</option>
+                        <option>Mobile</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="discription"><b>Description:</b></label>
+                <InputText id="comment" @bind-Value="addProduct.Discription" class="form-control" row="3"></InputText>
+                <ValidationMessage For="@(()=> addProduct.Discription)" />
+            </div>
+            <br>
+            <div class="text-center">
+                <button class="btn btn-primary" type="submit">
+                    Add Product
+                </button>
+            </div>
+            <div class="text-center">
+                <button @onclick="logout" class="btn btn-primary mx-5 mt-4">
+                    Logout
+                </button>
+            </div>
+        </EditForm>
+    </div><br>
+</div>
+
+@code{
+
+
+    async Task submitForm()
+    {
+        Image image = new Image();
+        Seller seller = new Seller();
+        Item item = new Item();
+        Category category = new Category();
+        JArray obj = await checkProductNameDuplication(addProduct.Name);
+        if (obj.Count == 0)
+        {
+            item.Name = addProduct.Name;
+            item.UnitPrice = addProduct.Price;
+            int categoryID = await addToDB("category", category);
+            item.CategoryId = categoryID;
+            item.Description = addProduct.Discription;
+            int sellerID = await addToDB("seller", seller);
+            item.SellerId = sellerID;
+            category.Name = addProduct.Category;
+            await addToDB("item", item);
+            NavManager.NavigateTo("/sellerSignin");
+        }
+        else
+        {
+            addProduct.nameWarning = "Product Name already in use.";
+        }
+
+
+    }
+
+    async Task<JArray> checkProductNameDuplication(string name)
+    {
+        String jsonDataAsString;
+        HttpClient http = new HttpClient();
+        var requestMessage = new HttpRequestMessage()
+        {
+            Method = new HttpMethod("GET"),
+            RequestUri = new Uri("http://localhost:5000/odata/userItem?$filter=email eq '" + name + "'")
+        };
+        var response = await http.SendAsync(requestMessage);
+        jsonDataAsString = await response.Content.ReadAsStringAsync();
+        var data = (JObject)JsonConvert.DeserializeObject(jsonDataAsString);
+        return (JArray)data["value"];
+    }
+
+    async Task<int> addToDB<T>(string table, T obj)
+    {
+        var json = JsonConvert.SerializeObject(obj);
+        var data = new StringContent(json, Encoding.UTF8, "application/json");
+        var url = "http://localhost:5000/odata/" + table;
+        using var client = new HttpClient();
+        var response = await client.PostAsync(url, data);
+        var result = await response.Content.ReadAsStringAsync();
+        var data1 = (JObject)JsonConvert.DeserializeObject(result);
+        return Convert.ToInt32(data1["value"][0].ToString());
+    }
+
+    async void logout()
+    {
+        await sessionStorage.ClearAsync();
+        NavManager.NavigateTo("/sellerSignIn");
+    }
+
+    public class Image
+    {
+        public int ItemId { get; set; }
+        public string Path { get; set; }
+    }
+
+    public class Seller
+    {
+        public int UserId { get; set; }
+        public int ShopAddressId { get; set; }
+        public int PaymentTypeId { get; set; }
+    }
+
+    public class Item
+    {
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public string Model { get; set; }
+        public string Manufacturer { get; set; }
+        public double? AverageRating { get; set; }
+        public int CategoryId { get; set; }
+        public float UnitPrice { get; set; }
+        public int SellerId { get; set; }
+    }
+
+    public class Category
+    {
+        public string Name { get; set; }
+    }
+
+    AddProduct addProduct = new AddProduct();
+    public class AddProduct
+    {
+        [Required]
+        [StringLength(100, ErrorMessage = "Name is Required")]
+        public string Name { get; set; }
+        [Required]
+        [Range(0, 9999, ErrorMessage = "Price must be between 0 and 9999")]
+        public int Price { get; set; }
+        [Required]
+        [Range(0, 99, ErrorMessage = "Quantity must be between 0 and 99")]
+        public int Quantity { get; set; }
+        [Required]
+        public string Category { get; set; }
+        [Required]
+        public string Discription { get; set; }
+        public string nameWarning = null;
+    }
+}

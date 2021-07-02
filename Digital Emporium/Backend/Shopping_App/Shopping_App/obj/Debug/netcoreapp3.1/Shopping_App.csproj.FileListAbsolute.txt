@@ -1,0 +1,534 @@
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.exe
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.deps.json
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.runtimeconfig.json
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.runtimeconfig.dev.json
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.pdb
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csprojAssemblyReference.cache
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.AssemblyInfoInputs.cache
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.AssemblyInfo.cs
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csproj.CoreCompileInputs.cache
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\staticwebassets\Shopping_App.StaticWebAssets.Manifest.cache
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\staticwebassets\Shopping_App.StaticWebAssets.xml
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\scopedcss\bundle\Shopping_App.styles.css
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.RazorTargetAssemblyInfo.cache
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csproj.CopyComplete
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.dll
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.pdb
+C:\Users\bsef1\source\repos\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.genruntimeconfig.cache
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.exe
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.deps.json
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.runtimeconfig.json
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.runtimeconfig.dev.json
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.pdb
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csprojAssemblyReference.cache
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.AssemblyInfoInputs.cache
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.AssemblyInfo.cs
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csproj.CoreCompileInputs.cache
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\staticwebassets\Shopping_App.StaticWebAssets.Manifest.cache
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\staticwebassets\Shopping_App.StaticWebAssets.xml
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\scopedcss\bundle\Shopping_App.styles.css
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.RazorTargetAssemblyInfo.cache
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csproj.CopyComplete
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.dll
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.pdb
+C:\Users\Hanan Raza\OneDrive\Documents\6th Semester\Enterprise Application Development\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.genruntimeconfig.cache
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csprojAssemblyReference.cache
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.AssemblyInfoInputs.cache
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.AssemblyInfo.cs
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csproj.CoreCompileInputs.cache
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.pdb
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.exe
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.deps.json
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.runtimeconfig.json
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.runtimeconfig.dev.json
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.pdb
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\staticwebassets\Shopping_App.StaticWebAssets.Manifest.cache
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\staticwebassets\Shopping_App.StaticWebAssets.xml
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\scopedcss\bundle\Shopping_App.styles.css
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.RazorTargetAssemblyInfo.cache
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csproj.CopyComplete
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.genruntimeconfig.cache
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.OData.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.OData.Core.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.OData.Edm.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Spatial.dll
+C:\Users\bsef1\source\repos\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.exe
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.deps.json
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.runtimeconfig.json
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.runtimeconfig.dev.json
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.pdb
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.OData.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.OData.Core.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.OData.Edm.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Spatial.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.AssemblyInfoInputs.cache
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.AssemblyInfo.cs
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csproj.CoreCompileInputs.cache
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\staticwebassets\Shopping_App.StaticWebAssets.Manifest.cache
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\staticwebassets\Shopping_App.StaticWebAssets.xml
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\scopedcss\bundle\Shopping_App.styles.css
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.RazorTargetAssemblyInfo.cache
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csproj.CopyComplete
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.dll
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.pdb
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.genruntimeconfig.cache
+C:\Users\Hanan Raza\OneDrive\Desktop\VS EAD\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csprojAssemblyReference.cache
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\appsettings.Development.json
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\appsettings.json
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.exe
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.deps.json
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.runtimeconfig.json
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.runtimeconfig.dev.json
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.pdb
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Humanizer.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.OData.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.OData.Core.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.OData.Edm.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Spatial.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csprojAssemblyReference.cache
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.AssemblyInfoInputs.cache
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.AssemblyInfo.cs
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csproj.CoreCompileInputs.cache
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.MvcApplicationPartsAssemblyInfo.cs
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.MvcApplicationPartsAssemblyInfo.cache
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\staticwebassets\Shopping_App.StaticWebAssets.Manifest.cache
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\staticwebassets\Shopping_App.StaticWebAssets.xml
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\scopedcss\bundle\Shopping_App.styles.css
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.RazorTargetAssemblyInfo.cache
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csproj.CopyComplete
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.dll
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.pdb
+F:\Projects\Android\GtiProjects\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.genruntimeconfig.cache
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.exe
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.deps.json
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.runtimeconfig.json
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.runtimeconfig.dev.json
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.pdb
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.OData.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.OData.Core.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.OData.Edm.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Spatial.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csprojAssemblyReference.cache
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.AssemblyInfoInputs.cache
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.AssemblyInfo.cs
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csproj.CoreCompileInputs.cache
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\staticwebassets\Shopping_App.StaticWebAssets.Manifest.cache
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\staticwebassets\Shopping_App.StaticWebAssets.xml
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\scopedcss\bundle\Shopping_App.styles.css
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.RazorTargetAssemblyInfo.cache
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csproj.CopyComplete
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.dll
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.pdb
+C:\Users\zayya\Desktop\New folder\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.genruntimeconfig.cache
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.exe
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.deps.json
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.runtimeconfig.json
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.runtimeconfig.dev.json
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.pdb
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.OData.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.OData.Core.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.OData.Edm.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Spatial.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.AssemblyInfoInputs.cache
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.AssemblyInfo.cs
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csproj.CoreCompileInputs.cache
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\staticwebassets\Shopping_App.StaticWebAssets.Manifest.cache
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\staticwebassets\Shopping_App.StaticWebAssets.xml
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\scopedcss\bundle\Shopping_App.styles.css
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.RazorTargetAssemblyInfo.cache
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csproj.CopyComplete
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.dll
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.pdb
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.genruntimeconfig.cache
+C:\Users\ded\Desktop\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csprojAssemblyReference.cache
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.exe
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.deps.json
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.runtimeconfig.json
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.runtimeconfig.dev.json
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Shopping_App.pdb
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.OData.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.OData.Core.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.OData.Edm.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Microsoft.Spatial.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csprojAssemblyReference.cache
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.AssemblyInfoInputs.cache
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.AssemblyInfo.cs
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\staticwebassets\Shopping_App.StaticWebAssets.Manifest.cache
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\staticwebassets\Shopping_App.StaticWebAssets.xml
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\scopedcss\bundle\Shopping_App.styles.css
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.RazorTargetAssemblyInfo.cache
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.csproj.CopyComplete
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.dll
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.pdb
+C:\Users\Muhammad Mehdi Ali\Desktop\PUCIT Files\6th Semester\EAD\EAD-Project\EAD-Project\Backend\Shopping_App\Shopping_App\obj\Debug\netcoreapp3.1\Shopping_App.genruntimeconfig.cache

@@ -1,0 +1,90 @@
+﻿@layout EmptyLayout
+@page "/sellerSignin"
+@using Newtonsoft.Json;
+@using Newtonsoft.Json.Linq;
+@using OnlineMarketPlace.Models;
+@using System;
+@using System.Collections.Generic;
+@using System.Linq;
+@using System.Net.Http;
+@using System.Threading.Tasks;
+@using System.Text;
+@inject Blazored.SessionStorage.ISessionStorageService sessionStorage
+@inject NavigationManager NavManager
+<div class="row my-5">
+    <div class=" col-10 col-md-3 text-center p-5 m-auto" style="border: 1px solid #DADCE0;border-radius: 10px;">
+        <div class="justify-content- center">
+            <img src="images/DigitalEmporiumLogo.png" height="150px">
+            <br>
+            <br>
+            <span style="font-size: x-large;">Seller Sign in</span>
+            <br>
+            <span>to continue to start selling</span>
+            <br>
+            <br>
+            <br>
+            <EditForm Model="@sellerSignIn" OnValidSubmit="submitForm">
+                <DataAnnotationsValidator></DataAnnotationsValidator>
+                <InputText @bind-Value="sellerSignIn.email" class="form-control" style="font-size: large;" placeholder="Enter your name"></InputText>
+                <br>
+                <ValidationMessage For="@(()=> sellerSignIn.email)"></ValidationMessage>
+                <br>
+                <InputText type="password" @bind-Value="sellerSignIn.password" class="form-control" placeholder="Enter your password"
+                           style="font-size: large;"></InputText>
+                <br>
+                <ValidationMessage For="@(()=> sellerSignIn.password)"></ValidationMessage>
+                <br>
+                <button class="btn btn-primary">Sign in</button>
+                <br>
+                <br>
+                <span style="color:red">@sellerSignIn.exists</span>
+            </EditForm>
+            <br>
+            <a href="sellerSignup">Don't have an account?</a>
+        </div>
+    </div>
+</div>
+@code {
+    async void submitForm()
+    {
+        JArray obj = await GetResponse(sellerSignIn.email, sellerSignIn.password);
+        if (obj.Count == 0)
+        {
+            sellerSignIn.exists = "Invalid username or password.";
+        }
+        else
+        {
+            sellerSignIn.exists = null;
+            int sellerID = Convert.ToInt32(obj[0]["Id"]);
+            await sessionStorage.SetItemAsync("sellerID", sellerID);
+            NavManager.NavigateTo("/sellerDashboard");
+
+        }
+    }
+    async Task<JArray> GetResponse(string email, string password)
+    {
+        String jsonDataAsString;
+        HttpClient http = new HttpClient();
+        var requestMessage = new HttpRequestMessage()
+        {
+            Method = new HttpMethod("GET"),
+            RequestUri = new Uri("http://localhost:5000/odata/userItem?$filter=email eq '" + email + "'and password eq '" + password + "'")
+        };
+        var response = await http.SendAsync(requestMessage);
+        jsonDataAsString = await response.Content.ReadAsStringAsync();
+        var data = (JObject)JsonConvert.DeserializeObject(jsonDataAsString);
+        return (JArray)data["value"];
+    }
+
+    SellerSignIn sellerSignIn = new SellerSignIn();
+    public class SellerSignIn
+    {
+        [Required]
+        [EmailAddress]
+        public string email { get; set; }
+        [Required]
+        [DataType(DataType.Password)]
+        public string password { get; set; }
+        public string exists = null;
+    }
+}

@@ -1,0 +1,31 @@
+﻿.top-heading-div {
+    background-color: #333;
+}
+
+.logo-heading {
+    font-family: "Brush Script MT", cursive;
+    font-size: 30px;
+    padding-right: 15px;
+    border-right: 1px solid #b4afaf;
+}
+
+.slogan {
+    margin-top: 18px;
+    padding-left: 15px;
+    color: #b4afaf;
+    font-family: cursive;
+    font-size: 16px;
+}
+.login-signup-btn {
+    height: fit-content;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 3px;
+    border-radius: 25px;
+    color: #d1cfcf;
+    font-family: Montserrat;
+}
+
+.btn {
+    margin-left: 12px;
+}

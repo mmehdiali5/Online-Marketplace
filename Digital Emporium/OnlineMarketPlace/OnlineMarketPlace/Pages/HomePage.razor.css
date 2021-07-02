@@ -1,0 +1,254 @@
+﻿.home-page {
+    background-color: whitesmoke;
+    /* The image used */
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-items {
+    color: #505050;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Montserrat;
+    border-right: 1px solid whitesmoke;
+}
+
+.login-signup-btn {
+    height: fit-content;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 3px;
+    border-radius: 25px;
+    color: #d1cfcf;
+    font-family: Montserrat;
+}
+
+.btn {
+    margin-left: 12px;
+}
+
+.top-heading-div {
+    background-color: #333;
+}
+
+.logo-heading {
+    font-family: "Brush Script MT", cursive;
+    font-size: 30px;
+    padding-right: 15px;
+    border-right: 1px solid #b4afaf;
+}
+
+.slogan {
+    margin-top: 18px;
+    padding-left: 15px;
+    color: #b4afaf;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.categories-div {
+    height: fit-content;
+    background-color: #dce7dc;
+    justify-content: right;
+    border: 1px dot-dash black;
+    border-radius: 20px;
+    font-family: "Cambria Math";
+    padding: 2%;
+}
+
+.show-detail-btn {
+    border-radius: 12px;
+    border: none;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    font-size: x-large;
+    background-color: #2b211a;
+}
+
+.cost-display {
+    font-family: fantasy;
+    color: green;
+    font-size: x-large;
+}
+
+.item-name {
+    font-size: xx-large;
+    font-family: "Cambria Math";
+}
+
+.my-card {
+    border-radius: 10px;
+}
+
+.category-btn {
+    border-radius: 20px;
+    background-color: #6e82ff;
+    border: 1px solid black;
+    color: whitesmoke;
+}
+
+.product-category-heading {
+    font-weight: bold;
+    font-family: Serif;
+    font-size: 40px;
+}
+
+.bg-grey {
+    background: #292929;
+}
+
+.logo-footer {
+    margin-bottom: 40px;
+}
+
+footer {
+    color: grey;
+}
+
+    footer p,
+    a {
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    footer h6 {
+        font-family: 'Playfair Display', serif;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+        footer h6:after {
+            position: absolute;
+            content: "";
+            background: grey;
+            width: 12%;
+            height: 1px;
+            left: 0;
+            bottom: -20px;
+        }
+
+.btn-footer {
+    color: grey;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 43px;
+    font-size: 13px;
+    padding: 7px 30px;
+    line-height: 47px;
+}
+
+    .btn-footer:hover {
+        text-decoration: none;
+    }
+
+.form-footer input[type="text"] {
+    border: none;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    padding-left: 10px;
+}
+
+::placeholder {
+    font-size: 10px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.form-footer input[type="button"] {
+    border: none;
+    background: #232323;
+    margin-left: -5px;
+    color: #fff;
+    outline: none;
+    border-radius: 0 16px 16px 0;
+    padding: 2px 12px;
+}
+
+.social .fa {
+    color: grey;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
+}
+
+footer ul li {
+    list-style: none;
+    display: block;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+    footer ul li a {
+        text-decoration: none;
+        color: grey;
+        text-decoration: none;
+    }
+
+a:hover {
+    text-decoration: none;
+    color: #f5f5f5 !important;
+}
+
+.logo-part {
+    border-right: 1px solid grey;
+    height: 100%;
+}
+
+/* Filter Boxes Styling */
+.filter-box {
+    border: 1px solid #d9d4d4;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+    .filter-box .search-field {
+        border-radius: 20px;
+        background-color: #ffffff;
+        margin-bottom: 10px;
+        padding: 0 10px 0 10px;
+        height: 50px;
+    }
+
+        .filter-box .search-field::placeholder {
+            color: darkgrey;
+            font-size: large;
+        }
+
+.title {
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.panel-heading {
+    border-bottom: 1px solid #ddd5d5;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+.form-check {
+    font-size: 25px;
+}
+
+.custom-control-label::before,
+.custom-control-label::after {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    border: 1px solid #cccccc;
+}
+
+.custom-control-label {
+    margin-left: 20px;
+    font-family: Calibri;
+}
+

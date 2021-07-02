@@ -1,0 +1,180 @@
+﻿@layout MainLayout
+@page "/updateproduct"
+@using Newtonsoft.Json;
+@using Newtonsoft.Json.Linq;
+@using OnlineMarketPlace.Models;
+@using System;
+@using System.Collections.Generic;
+@using System.Linq;
+@using System.Net.Http;
+@using System.Threading.Tasks;
+@using System.Text;
+
+<!--Seller Update Product-->
+<div class="container-fluid bg-light" style="padding-top: 2%;">
+    <div class="bg-dark" style="padding: 1%; margin-left: 10%; margin-right: 10%; margin-bottom: 3%; border-radius: 5px;">
+        <div style="padding: 1%; border: 1px dashed gray;background-color: #FCECEC; border-radius: 5px;">
+            <p>Home>Add Products>Update Product</p>
+            <div class="text-center">
+                <h2>Update Products</h2>
+            </div>
+        </div>
+    </div>
+    <!--Seller Dashboard main Head-->
+    <div class="form" style="padding-left: 10%; padding-right: 10%;">
+        <h4>Product Details</h4>
+        <EditForm Model="@updateProduct" OnValidSubmit="submitForm">
+            <DataAnnotationsValidator></DataAnnotationsValidator>
+            <div class="form-row">
+                <div class="form-group col-md-4 image-upload-wrap">
+                    <input class="file-upload-input" type="file" onchange="readURL(this);" accept="image/*">
+                </div>
+                <div class="form-group col-md-4 image-upload-wrap">
+                    <input class="file-upload-input" type="file" onchange="readURL(this);" accept="image/*">
+                </div>
+                <div class="form-group col-md-4 image-upload-wrap">
+                    <input class="file-upload-input" type="file" onchange="readURL(this);" accept="image/*">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Name"><b>Name:</b></label>
+                <InputText id="name" @bind-Value="updateProduct.Name" class="form-control" placeholder="Enter product name"></InputText>
+                <ValidationMessage For="@(()=> updateProduct.Name)" />
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="Price"><b>Price:</b></label>
+                    <InputNumber id="price" @bind-Value="updateProduct.Price" class="form-control" placeholder="Enter product price"></InputNumber>
+                    <ValidationMessage For="@(()=> updateProduct.Price)" />
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="Quantity"><b>Quantity:</b></label>
+                    <InputNumber id="quantity" @bind-Value="updateProduct.Quantity" class="form-control" placeholder="Enter product Quantity"></InputNumber>
+                    <ValidationMessage For="@(()=> updateProduct.Quantity)" />
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="catagory"><b>Category:</b></label>
+                    <select class="form-control" id="catagory">
+                        <option>Food</option>
+                        <option>Women</option>
+                        <option>Men</option>
+                        <option>Kids</option>
+                        <option>Mobile</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="discription"><b>Description:</b></label>
+                <InputText id="comment" @bind-Value="updateProduct.Discription" class="form-control" row="3"></InputText>
+                <ValidationMessage For="@(()=> updateProduct.Discription)" />
+            </div>
+            <br>
+            <div class="text-center">
+                <button class="btn btn-primary">Add Product</button>
+            </div>
+        </EditForm>
+    </div><br>
+</div>
+
+@code{
+    async Task submitForm()
+    {
+        Image image = new Image();
+        Seller seller = new Seller();
+        Item item = new Item();
+        Category category = new Category();
+        JArray obj = await checkProductNameDuplication(updateProduct.Name);
+        if (obj.Count == 0)
+        {
+            item.Name = updateProduct.Name;
+            item.UnitPrice = updateProduct.Price;
+            int categoryID = await addToDB("category", category);
+            item.CategoryId = categoryID;
+            item.Description = updateProduct.Discription;
+            int sellerID = await addToDB("seller", seller);
+            item.SellerId = sellerID;
+            category.Name = updateProduct.Category;
+            await addToDB("item", item);
+        }
+        else
+        {
+            updateProduct.nameWarning = "Product Name already in use.";
+        }
+    }
+
+    async Task<JArray> checkProductNameDuplication(string name)
+    {
+        String jsonDataAsString;
+        HttpClient http = new HttpClient();
+        var requestMessage = new HttpRequestMessage()
+        {
+            Method = new HttpMethod("GET"),
+            RequestUri = new Uri("http://localhost:5000/odata/userItem?$filter=email eq '" + name + "'")
+        };
+        var response = await http.SendAsync(requestMessage);
+        jsonDataAsString = await response.Content.ReadAsStringAsync();
+        var data = (JObject)JsonConvert.DeserializeObject(jsonDataAsString);
+        return (JArray)data["value"];
+    }
+
+    async Task<int> addToDB<T>(string table, T obj)
+    {
+        var json = JsonConvert.SerializeObject(obj);
+        var data = new StringContent(json, Encoding.UTF8, "application/json");
+        var url = "http://localhost:5000/odata/" + table;
+        using var client = new HttpClient();
+        var response = await client.PostAsync(url, data);
+        var result = await response.Content.ReadAsStringAsync();
+        var data1 = (JObject)JsonConvert.DeserializeObject(result);
+        return Convert.ToInt32(data1["value"][0].ToString());
+    }
+
+    public class Image
+    {
+        public int ItemId { get; set; }
+        public string Path { get; set; }
+    }
+
+    public class Seller
+    {
+        public int UserId { get; set; }
+        public int ShopAddressId { get; set; }
+        public int PaymentTypeId { get; set; }
+    }
+
+    public class Item
+    {
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public string Model { get; set; }
+        public string Manufacturer { get; set; }
+        public double? AverageRating { get; set; }
+        public int CategoryId { get; set; }
+        public float UnitPrice { get; set; }
+        public int SellerId { get; set; }
+    }
+
+    public class Category
+    {
+        public string Name { get; set; }
+    }
+
+    UpdateProduct updateProduct = new UpdateProduct();
+    public class UpdateProduct
+    {
+        [Required]
+        [StringLength(100, ErrorMessage = "Name is Required")]
+        public string Name { get; set; }
+        [Required]
+        [Range(0, 9999, ErrorMessage = "Price must be between 0 and 9999")]
+        public int Price { get; set; }
+        [Required]
+        [Range(0, 99, ErrorMessage = "Quantity must be between 0 and 99")]
+        public int Quantity { get; set; }
+        [Required]
+        public string Category { get; set; }
+        [Required]
+        public string Discription { get; set; }
+        public string nameWarning = null;
+    }
+}

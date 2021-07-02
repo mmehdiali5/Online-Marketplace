@@ -1,0 +1,114 @@
+.category[b-ym3ztjpwtv] {
+    margin-top: 20px;
+}
+
+.list[b-ym3ztjpwtv] {
+    margin-top: 20px;
+    color: #8d8d8d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.bg-grey[b-ym3ztjpwtv] {
+    background: #292929;
+}
+
+.logo-footer[b-ym3ztjpwtv] {
+    margin-bottom: 40px;
+}
+
+footer[b-ym3ztjpwtv] {
+    color: grey;
+}
+
+    footer p[b-ym3ztjpwtv],
+    a[b-ym3ztjpwtv] {
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    footer h6[b-ym3ztjpwtv] {
+        font-family: 'Playfair Display', serif;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+        footer h6[b-ym3ztjpwtv]:after {
+            position: absolute;
+            content: "";
+            background: grey;
+            width: 12%;
+            height: 1px;
+            left: 0;
+            bottom: -20px;
+        }
+
+.btn-footer[b-ym3ztjpwtv] {
+    color: grey;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 43px;
+    font-size: 13px;
+    padding: 7px 30px;
+    line-height: 47px;
+}
+
+    .btn-footer:hover[b-ym3ztjpwtv] {
+        text-decoration: none;
+    }
+
+.form-footer input[type="text"][b-ym3ztjpwtv] {
+    border: none;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    padding-left: 10px;
+}
+
+[b-ym3ztjpwtv]::placeholder {
+    font-size: 10px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.form-footer input[type="button"][b-ym3ztjpwtv] {
+    border: none;
+    background: #232323;
+    margin-left: -5px;
+    color: #fff;
+    outline: none;
+    border-radius: 0 16px 16px 0;
+    padding: 2px 12px;
+}
+
+.social .fa[b-ym3ztjpwtv] {
+    color: grey;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
+}
+
+footer ul li[b-ym3ztjpwtv] {
+    list-style: none;
+    display: block;
+}
+
+footer ul[b-ym3ztjpwtv] {
+    padding-left: 0;
+}
+
+    footer ul li a[b-ym3ztjpwtv] {
+        text-decoration: none;
+        color: grey;
+        text-decoration: none;
+    }
+
+a:hover[b-ym3ztjpwtv] {
+    text-decoration: none;
+    color: #f5f5f5 !important;
+}
+
+.logo-part[b-ym3ztjpwtv] {
+    border-right: 1px solid grey;
+    height: 100%;
+}
+

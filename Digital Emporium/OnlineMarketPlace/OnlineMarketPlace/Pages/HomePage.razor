@@ -1,0 +1,534 @@
+﻿@page "/"
+@using Newtonsoft.Json;
+@using Newtonsoft.Json.Linq;
+@using OnlineMarketPlace.Models;
+@using System;
+@using System.Collections.Generic;
+@using System.Linq;
+@using System.Net.Http;
+@using System.Threading.Tasks;
+@using System.Threading;
+
+<!-- Home Page Banner-->
+<div class="carousel slide mx-5" data-ride="carousel" id="carousel-1">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <a href="#">
+                <img alt="Slide Image" class="w-100 d-block"
+                     height="350px" src="images/banner1.jpg">
+            </a>
+        </div>
+        <div class="carousel-item">
+            <a href="#">
+                <img alt="Slide Image" class="w-100 d-block"
+                     height="350px" src="images/banner2.jpg">
+            </a>
+        </div>
+        <div class="carousel-item">
+            <a href="#">
+                <img alt="Slide Image" class="w-100 d-block"
+                     height="350px" src="images/banner3.jpg">
+            </a>
+        </div>
+    </div>
+    <div>
+        <a class="carousel-control-prev" data-slide="prev" href="#carousel-1">
+            <span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span>
+        </a><a class="carousel-control-next" data-slide="next" href="#carousel-1">
+            <span class="carousel-control-next-icon"></span><span class="sr-only">Next</span>
+        </a>
+    </div>
+    <ol class="carousel-indicators">
+        <li class="active" data-slide-to="0" data-target="#carousel-1"></li>
+        <li data-slide-to="1" data-target="#carousel-1"></li>
+        <li data-slide-to="2" data-target="#carousel-1"></li>
+    </ol>
+</div>
+
+<div class="categories-btns container">
+    <div class="row d-flex justify-content-center">
+        <button class="btn btn-light m-2 active col-md-2 category-btn" type="button">
+            <i aria-hidden="true"
+               class="fa fa-shopping-bag"></i>Fashion
+            &
+            Beauty
+        </button>
+        <button class="btn btn-light m-2 col-md-2 category-btn" type="button">
+            <i aria-hidden="true"
+               class="fa fa-male"></i>Men's
+            Fashion
+        </button>
+        <button class="btn btn-light m-2 col-md-2 category-btn" type="button">
+            <i class="fa fa-female"></i>Women's
+            Fashion
+        </button>
+        <button class="btn btn-light m-2 col-md-2 category-btn" type="button">
+            <i aria-hidden="true"
+               class="fa fa-bicycle"></i>Sports
+        </button>
+    </div>
+</div>
+
+<!--   Home Page Displayed Data/Items-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-10 col-12">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-3 m-0 d-none d-md-block" id="divFilters" style="margin-top:25px;">
+                        <div class="filtered-search-div">
+                            @if (allCategoriesDataForFilterComponenent.Count > 0)
+                            {
+                                <FilterComponent OnClickCallback="GetCategoryId" categoriesList=@allCategoriesDataForFilterComponenent>
+
+                                </FilterComponent>
+                            }
+
+
+                            @*                            <button class="btn btn-default" ng-click="applyBottomFilters(1, true);"
+                                        style="color: white;height: 50px;background-color:#3498DB;border: 0px solid transparent;border-radius:25px;padding: 12px 32px;margin-bottom: 0;font-size: 14px;"
+                                        type="button">
+                                    Apply Filters
+                                </button>
+                            *@
+                        </div>
+                    </div>
+                    <div class="col-md-8 p-0 m-0">
+                        @{
+                            if (ShowOnlyFilteredProducts == true)
+                            {
+                                ListData searchedCategoryData = allListItems.Find((temp) => temp.category.Id == categoryIdClickedFromChild);
+                                <div class="d-flex justify-content-center w-50 mx-auto py-2 featured-products">
+                                    <h2 class="product-category-heading"><u>@searchedCategoryData.category.Name</u></h2>
+                                </div>
+                                <div class="container my-5 p-0">
+                                    <div class="row">
+                                        <CardComponent Items="@searchedCategoryData.itemsList" TItem="ItemData">
+                                            <ChildContent Context="myProd">
+                                                <div class="col-md-4 col-sm-6">
+                                                    <div class="card my-card mt-0">
+                                                        <div class="align-items-center p-2 text-center">
+                                                            <img alt="" class="card-img-top w-100 d-block p-2"
+                                                                 height="200" src="@myProd.imgPath">
+                                                            <h4 class="item-name">@myProd.item.Name</h4>
+                                                            <div class="mt-3 text-dark">
+                                                                <span class="cost-display">$ @myProd.item.UnitPrice</span>
+                                                            </div>
+                                                            <hr />
+                                                            <button class="show-detail-btn">
+                                                                <a class="show-detail-btn"
+                                                                   href="/product/@myProd.item.Id"> Show Details </a>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </ChildContent>
+                                        </CardComponent>
+                                        <span class="ml-auto"><a href="#">See more</a> </span>
+                                    </div>
+                                </div>
+                            }
+                            else
+                            {
+                                foreach (var listItem in allListItems)
+                                {
+
+                                    <div class="d-flex justify-content-center w-50 mx-auto py-2 featured-products">
+                                        <h2 class="product-category-heading"><u>@listItem.category.Name</u></h2>
+                                    </div>
+                                    <div class="container my-5 p-0">
+                                        <div class="row">
+                                            <CardComponent Items="@listItem.itemsList" TItem="ItemData">
+                                                <ChildContent Context="myProd">
+                                                    <div class="col-md-4 col-sm-6">
+                                                        <div class="card my-card mt-0">
+                                                            <div class="align-items-center p-2 text-center">
+                                                                <img alt="" class="card-img-top w-100 d-block p-2"
+                                                                     height="200" src="@myProd.imgPath">
+                                                                <h4 class="item-name">@myProd.item.Name</h4>
+                                                                <div class="mt-3 text-dark">
+                                                                    <span class="cost-display">$ @myProd.item.UnitPrice</span>
+                                                                </div>
+                                                                <hr />
+                                                                <button class="show-detail-btn">
+                                                                    <a class="show-detail-btn"
+                                                                       href="/product/@myProd.item.Id"> Show Details </a>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </ChildContent>
+                                            </CardComponent>
+                                            <span class="ml-auto"><a href="#">See more</a> </span>
+                                        </div>
+                                    </div>
+                                }
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
+<!--Issues Need to Resolve related to mobile view :SideNavbar-->
+<!--
+                        <div class="sidenav" id="mySidenav">
+                            <a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a>
+                            <div class="mainHeader">
+                                <a href="javascript:void(0)" onclick="closeNav()"
+                                   style="text-align: right;margin-right:10px;"><i class="glyphicon glyphicon-remove sidenav-icon"></i></a>
+                            </div>
+                            <div class="menu-item">
+                                <div class="row" style="background:white;white-space:nowrap">
+                                    <div class="col-sm-12">
+                                        <div class="panel-group" id="_accordion">
+                                            <div class="filter-box">
+                                                <div class="panel-heading">
+                                                    <h4 class="panel-title">
+                                                        <a aria-expanded="true" class=""
+                                                           data-target="#collapseCategories" data-toggle="collapse">
+                                                            <span class="font-weight-600 title">Category</span>
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="collapse show" id="collapseCategories">
+                                                    <div class="panel-body">
+                                                        <input class="form-control search-field"
+                                                               placeholder="Enter category ... "
+                                                               type="text">
+                                                        <div class="form-check">
+                                                            <input class="custom-control-input" id="customCheck1"
+                                                                   type="checkbox">
+                                                            <label class="custom-control-label" for="customCheck1">Fashion</label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="custom-control-input" id="customCheck2"
+                                                                   type="checkbox">
+                                                            <label class="custom-control-label" for="customCheck2">Outfit</label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="custom-control-input" id="customCheck3"
+                                                                   type="checkbox">
+                                                            <label class="custom-control-label" for="customCheck3">Sports</label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="custom-control-input" id="customCheck4"
+                                                                   type="checkbox">
+                                                            <label class="custom-control-label" for="customCheck4">Watches</label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="custom-control-input" id="customCheck5"
+                                                                   type="checkbox">
+                                                            <label class="custom-control-label"
+                                                                   for="customCheck5">Electronics</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="filter-box">
+                                                <div class="panel-heading">
+                                                    <h4 class="panel-title">
+                                                        <a aria-expanded="true"
+                                                           data-target="#collapseShops" data-toggle="collapse">
+                                                            <span class="font-weight-600 title">Shops</span>
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="collapse show" id="collapseShops">
+                                                    <div class="panel-body">
+                                                        <input class="form-control search-field"
+                                                               placeholder="Enter shop name... "
+                                                               type="text">
+                                                        <div class="form-check">
+                                                            <input class="custom-control-input" id="customCheck6"
+                                                                   type="checkbox">
+                                                            <label class="custom-control-label" for="customCheck6">A&B
+                                                                Mobile &
+                                                                Accessories</label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="custom-control-input" id="customCheck7"
+                                                                   type="checkbox">
+                                                            <label class="custom-control-label"
+                                                                   for="customCheck7">J. </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="custom-control-input" id="customCheck8"
+                                                                   type="checkbox">
+                                                            <label class="custom-control-label" for="customCheck8">Khaadi</label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="custom-control-input" id="customCheck9"
+                                                                   type="checkbox">
+                                                            <label class="custom-control-label" for="customCheck9">Mini
+                                                                Mart</label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="custom-control-input" id="customCheck10"
+                                                                   type="checkbox">
+                                                            <label class="custom-control-label" for="customCheck10">Saphire</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="filter-box">
+                                                <div class="panel-heading">
+                                                    <h4 class="panel-title">
+                                                        <a aria-expanded="true"
+                                                           data-target="#collapsePrices" data-toggle="collapse">
+                                                            <span class="font-weight-600 title">Price</span>
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="collapse show" id="collapsePrices">
+                                                    <div class="panel-body">
+                                                        <div class="form-check radio">
+                                                            <input class="custom-control-input" id="customCheck11"
+                                                                   type="radio">
+                                                            <label class="custom-control-label" for="customCheck11">20,000
+                                                                &gt</label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="custom-control-input" id="customCheck12"
+                                                                   type="radio">
+                                                            <label class="custom-control-label" for="customCheck12">15,000
+                                                                &#45;&#45;
+                                                                19,999</label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="custom-control-input" id="customCheck13"
+                                                                   type="radio">
+                                                            <label class="custom-control-label" for="customCheck13">10,000
+                                                                &#45;&#45;
+                                                                14,999</label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="custom-control-input" id="customCheck14"
+                                                                   type="radio">
+                                                            <label class="custom-control-label" for="customCheck14">5,000
+                                                                &#45;&#45;
+                                                                9,999</label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="custom-control-input" id="customCheck15"
+                                                                   type="radio">
+                                                            <label class="custom-control-label" for="customCheck15"> &lt
+                                                                5,000 </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div id="sideDivApplyFilter" ng-hide="jobList.length == 0"
+                                                 style="text-align:center;margin-top:5px; position: sticky;bottom: 0rem;">
+                                                <button class="btn btn-default"
+                                                        style="color: white;height: 50px;background-color:#3498DB;border: 0px solid transparent;border-radius:25px;padding: 12px 32px;margin-bottom: 0;font-size: 14px;"
+                                                        type="button">
+                                                    Apply Filters
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+-->
+@code{
+    bool ShowOnlyFilteredProducts = false;
+    int categoryIdClickedFromChild = -1;
+
+    List<Category> allCategoriesDataForFilterComponenent = new List<Category>();
+    public class ItemData
+    {
+        public Item item;
+        public string imgPath;
+    }
+
+    public class ListData
+    {
+        public Category category;
+
+        public List<ItemData> itemsList = new List<ItemData>();
+    }
+    List<ListData> allListItems = new List<ListData>();
+
+    //    List<Item> allItemList = new List<Item>();
+
+    List<Item> list = new List<Item>();
+    protected override async Task<Task> OnInitializedAsync()
+    {
+        List<Category> allCategoriesList = new List<Category>();
+        JArray result = new JArray();
+        Console.WriteLine("In On Initialized");
+        result = await GetResponse("category");
+        Console.WriteLine("Hello");
+
+        allCategoriesList = ConvertJsonArrayToList<Category>(result);
+        allCategoriesDataForFilterComponenent = allCategoriesList;
+        foreach (var category in allCategoriesList)
+        {
+            result = await GetResponse("item", "CategoryId", category.Id);
+            List<Item> allItemsRelatedToCategory = ConvertJsonArrayToList<Item>(result);
+            List<ItemData> itemDataList = new List<ItemData>();
+            foreach (var item in allItemsRelatedToCategory)
+            {
+                result = await GetResponse("image", "ItemId", item.Id);
+                String imgPath = ConvertJsonArrayToList<Image>(result).ElementAt(0).Path;
+                itemDataList.Add(new ItemData { item = item, imgPath = imgPath });
+            }
+            Console.WriteLine("Result: " + result);
+            allListItems.Add(new ListData { category = category, itemsList = itemDataList });
+        }
+        return base.OnInitializedAsync();
+    }
+
+    async Task<JArray> GetResponse(string table)
+    {
+        @*        TimeSpan time = new TimeSpan(0, 0, 5);
+            Thread.Sleep(time);
+        *@  String jsonDataAsString;
+    Console.Write("In GetResponse(table)");
+    HttpClient http = new HttpClient();
+    var requestMessage = new HttpRequestMessage()
+    {
+        Method = new HttpMethod("GET"),
+        RequestUri = new Uri("http://localhost:5000/odata/" + table)
+    };
+    var response = await http.SendAsync(requestMessage);
+    jsonDataAsString = await response.Content.ReadAsStringAsync();
+    Console.WriteLine(jsonDataAsString);
+    var data = (JObject)JsonConvert.DeserializeObject(jsonDataAsString);
+    return (JArray)data["value"];
+}
+async Task<JArray> GetResponse(string table, string field, int id)
+{
+    String jsonDataAsString;
+    Console.Write("In GetResponse(table)");
+    HttpClient http = new HttpClient();
+    var requestMessage = new HttpRequestMessage()
+    {
+        Method = new HttpMethod("GET"),
+        RequestUri = new Uri("http://localhost:5000/odata/" + table + "?$filter=" + field + " eq " + id)
+    };
+    var response = await http.SendAsync(requestMessage);
+    jsonDataAsString = await response.Content.ReadAsStringAsync();
+    Console.WriteLine(jsonDataAsString);
+    var data = (JObject)JsonConvert.DeserializeObject(jsonDataAsString);
+    return (JArray)data["value"];
+}
+
+async Task<List<T>> GetList<T>(string fieldName, int categoryId)
+{
+    JArray result = new JArray();
+    string table = typeof(T).Name;
+    result = await GetResponse(table, fieldName, categoryId);
+    return ConvertJsonArrayToList<T>(result);
+}
+public List<T> ConvertJsonArrayToList<T>(JArray jsonArray)
+{
+    Console.WriteLine("array" + jsonArray);
+    List<T> list = jsonArray.ToObject<List<T>>();
+    return list;
+}
+
+private void GetCategoryId(int id)
+{
+    ShowOnlyFilteredProducts = true;
+    categoryIdClickedFromChild = id;
+}
+
+}
+
+
+@*                            <div class="filter-box">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a aria-expanded="true"
+                   data-target="#collapseShops" data-toggle="collapse">
+                    <span class="font-weight-600 title">Shops</span>
+                </a>
+            </h4>
+        </div>
+        <div class="collapse show" id="collapseShops">
+            <div class="panel-body">
+                <input class="form-control search-field" placeholder="Enter shop name... "
+                       type="text">
+                <div class="form-check">
+                    <input class="custom-control-input" id="customCheck6" type="checkbox">
+                    <label class="custom-control-label" for="customCheck6">
+                        A&B Mobile &
+                        Accessories
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="custom-control-input" id="customCheck7" type="checkbox">
+                    <label class="custom-control-label" for="customCheck7">J. </label>
+                </div>
+                <div class="form-check">
+                    <input class="custom-control-input" id="customCheck8" type="checkbox">
+                    <label class="custom-control-label" for="customCheck8">Khaadi</label>
+                </div>
+                <div class="form-check">
+                    <input class="custom-control-input" id="customCheck9" type="checkbox">
+                    <label class="custom-control-label" for="customCheck9">Mini Mart</label>
+                </div>
+                <div class="form-check">
+                    <input class="custom-control-input" id="customCheck10" type="checkbox">
+                    <label class="custom-control-label" for="customCheck10">Saphire</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="filter-box">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a aria-expanded="true"
+                   data-target="#collapsePrices" data-toggle="collapse">
+                    <span class="font-weight-600 title">Price</span>
+                </a>
+            </h4>
+        </div>
+        <div class="collapse show" id="collapsePrices">
+            <div class="panel-body">
+                <div class="form-check radio">
+                    <input class="custom-control-input" id="customCheck11" type="radio">
+                    <label class="custom-control-label" for="customCheck11">
+                        20,000
+                        &gt
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="custom-control-input" id="customCheck12" type="radio">
+                    <label class="custom-control-label" for="customCheck12">
+                        15,000 --
+                        19,999
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="custom-control-input" id="customCheck13" type="radio">
+                    <label class="custom-control-label" for="customCheck13">
+                        10,000 --
+                        14,999
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="custom-control-input" id="customCheck14" type="radio">
+                    <label class="custom-control-label" for="customCheck14">
+                        5,000 --
+                        9,999
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="custom-control-input" id="customCheck15" type="radio">
+                    <label class="custom-control-label" for="customCheck15">
+                        &lt
+                        5,000
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+*@

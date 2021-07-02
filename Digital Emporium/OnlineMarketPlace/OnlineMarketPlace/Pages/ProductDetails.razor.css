@@ -1,0 +1,43 @@
+﻿/* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    .category {
+        margin-top: 20px;
+    }
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+    .checked {
+        color: orange;
+    }
+
+    .stars {
+        display: flex;
+    }
+
+    .button {
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 12px;
+        color: white;
+        background-color: #f5614d;
+        border: 2px solid #f5614d;
+        border-radius: 25px;
+        padding: 8px;
+    }
+
+    .button:hover {
+        background-color: #3f3f3f;
+    }
+    .list {
+        margin-top: 20px;
+        color: #8d8d8d;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }

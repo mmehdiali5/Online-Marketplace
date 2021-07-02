@@ -1,0 +1,75 @@
+﻿
+<style>
+    .list {
+        margin-top: 20px;
+        color: #8d8d8d;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+</style>
+
+<div>
+    <ul class="row"
+        style=" margin-top: 20px; display: flex;list-style-type:none; border-bottom: 1px solid #d1cfcf;">
+        <li id="desc" style="@myStyle1 cursor:pointer"  
+            class="list col-sm-3" @onclick="DisplaySeller">
+            Contact Seller
+        </li> &nbsp; &nbsp; &nbsp;
+
+        <li id="info" style="@myStyle2 cursor:pointer"  
+            class="list col-sm-3" @onclick="DisplayInfo">
+            ADDITIONAL
+            INFORMATION
+        </li> &nbsp; &nbsp; &nbsp;
+
+        <li id="review" style="@myStyle3 cursor:pointer"  
+            class="list col-sm-3" @onclick="DisplayReview">
+            REVIEWS
+        </li>
+    </ul>
+    <div>
+        @MyDescription
+    </div>
+
+    
+</div>
+
+
+
+@code {
+    string myStyle1;
+    string myStyle2;
+    string myStyle3;
+    [Parameter]
+    public RenderFragment MyDescription { get; set; }
+
+    [Parameter]
+    public EventCallback<string> OnClickCallback { get; set; }
+
+    private void DisplaySeller()
+    {
+        myStyle1 = "color:#f5614d;border-bottom:1px solid #f5614d;";
+        myStyle2 = "color:#8d8d8d;border-bottom:1px solid #8d8d8d;";
+        myStyle3 = "color:#8d8d8d;border-bottom:1px solid #8d8d8d;";
+
+        OnClickCallback.InvokeAsync("desc");
+    }
+    private void DisplayInfo()
+    {
+        myStyle1 = "color:#8d8d8d;border-bottom:1px solid #8d8d8d;";
+        myStyle2 = "color:#f5614d;border-bottom:1px solid #f5614d;";
+        myStyle3 = "color:#8d8d8d;border-bottom:1px solid #8d8d8d;";
+
+        OnClickCallback.InvokeAsync("info");
+    }
+    private void DisplayReview()
+    {
+        myStyle1 = "color:#8d8d8d;border-bottom:1px solid #8d8d8d;";
+        myStyle2 = "color:#8d8d8d;border-bottom:1px solid #8d8d8d;";
+        myStyle3 = "color:#f5614d;border-bottom:1px solid #f5614d;";
+
+        OnClickCallback.InvokeAsync("rev");
+    }
+
+
+}
